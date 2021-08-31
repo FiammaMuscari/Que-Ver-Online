@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a54d2cbf95.js"></script>
+    <!--CSS Bootstrap adjuntado y verificado-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styless.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="shortcut icon" type="image/jpg" href="img/clapperboard.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--media queries-->
+    <title>Que Ver Online</title>
+    
+    
+</head>
+<body>
+   
+
+    <header class="header">
+        <div class="barra">
+            <div id="loguito" class="logo">
+                <img src="img/logo.jpg" alt="imagen logo">
+            </div>
+            <nav id=btn_responsive><a href="#" onclick="hamburguesa()">
+                <span class="icon-menu"> <img src="img/menu.png"></span>
+            </a></nav>
+            <nav id=btn_principal style="">
+                <nav  class="navegacion"> 
+                    <a href="#netflix" class="navegacion__enlace">Netflix</a>
+                    <a href="#hbo" class="navegacion__enlace">HBO</a>
+                    <a href="#amazon" class="navegacion__enlace">Amazon</a>
+                    <a href="#nosotros" class="navegacion__enlace">Nosotros</a>
+                    <a href="#seguinos" class="navegacion__enlace">Seguinos</a>
+                </nav>
+            </nav>
+            
+            
+        </div>
+        <div class="cursor"></div>
+
+    </header><!--fin header-->
+    
+    <section class="contenedor-explicacion">
+        <div class="contenedor-explicacion__texto">
+            <h2 class="contenedor-explicacion__titulo">¡Hora de Maratonear!</h2>
+            <p class="parrafo__explicacion"> Te traemos la mejor selección en cartelera para disfrutar de las series y películas taquilleras de la semana de las plataformas de streaming más conocidas a nivel mundial, no te pierdas las novedades de nuestra página y disfruta del contenido con quien más quieras.</p>
+            <div id='netflix'></div>
+        </div>
+    </section><!--fin explicacion-->
+
+    <section id='netflixx' class="contenedor-netflix">
+        <div class="container_centrar">
+            <div class="contenedor-netflix__div"> 
+                <img class='contenedor-netflix__imagen'src="img/netflixlogo.png" alt="netflixlogo">
+            </div>
+        </div>
+        <div class="container_centrar">
+            <div class="contenedor--galeria__netflix">
+                <div class="gallery__item-netflix">
+                    <img src='img/img1.jpg' alt="imagen 1">
+                    <h4 class="no-margin"> Top 1</h4>
+                    <figcaption>
+                        <a href="https://www.netflix.com/title/81221380" class="nav--footer" target="_blank"> <p class="nombre">Sweet Tooth</p></a>
+                        
+                    </figcaption>
+                </div>
+                <div class="gallery__item-netflix">
+                    <img src='img/img2.jpeg' alt="imagen 2">
+                    <h4 class="no-margin">Top 2</h4>
+                    <figcaption>
+                        <a href="https://www.netflix.com/title/70285581" class="nav--footer" target="_blank" > <p class="nombre">Outlander</p> </a>
+                    </figcaption>
+                </div>
+                <div class="gallery__item-netflix">
+                    <img src='img/img3.jpg' alt="imagen 3">
+                    <h4 class="no-margin">Top 3</h4>
+                    <figcaption>
+                        <a href="https://www.netflix.com/title/80174608" class="nav--footer" target="_blank"> <p class="nombre">Love Death & Robots</p></a>
+                    </figcaption>
+                </div>
+                <div class="gallery__item-netflix">
+                    <img src='img/img4.jpg' alt="imagen 4">
+                    <h4 class="no-margin">Top 4</h4>
+                    <figcaption>
+                        <a href="https://www.netflix.com/title/80189685" class="nav--footer" target="_blank"> <p class="nombre">The Witcher</p></a>
+                    </figcaption>
+                </div>
+                <div class="gallery__item-netflix">
+                    <img src='img/img5.jpg' alt="imagen 5">
+                    <h4 class="no-margin">Top 5</h4>
+                    <figcaption>
+                        <a href="https://www.netflix.com/title/81168940" class="nav--footer" target="_blank"> <p class="nombre">Madam Curie</p></a>
+                    </figcaption>
+                </div>
+                <div class="gallery__item-netflix">
+                    <img src='img/img6.jpeg' alt="imagen 6">
+                    <h4 class="no-margin">Top 6</h4>
+                    <figcaption>
+                        <a href="https://www.netflix.com/title/80244630" class="nav--footer" target="_blank"> <p class="nombre">Detrás de sus ojos</p></a>
+                    </figcaption>
+                </div>
+                <div class="gallery__item-netflix">
+                    <img src='img/img7.jpg' alt="imagen 7">
+                    <h4 class="no-margin">Top 7</h4>
+                    <figcaption>
+                        <a href="https://www.netflix.com/title/80234304" class="nav--footer" target="_blank"> <p class="nombre">Gambito de Dama</p></a>
+                    </figcaption>
+                </div>
+                <div class="gallery__item-netflix">
+                    <img src='img/img8.jpg' alt="imagen 8">
+                    <h4 class="no-margin">Top 8</h4>
+                    <figcaption>
+                        <a href="https://www.netflix.com/title/80025678" class="nav--footer" target="_blank"> <p class="nombre">The Crown</p></a>
+                    </figcaption>
+                </div>
+                <div id='hbo' class="gallery__item-netflix">
+                    <img src='img/img9.jpg' alt="imagen 9">
+                    <h4 class="no-margin">Top 9</h4>
+                    <figcaption>
+                        <a href="https://www.netflix.com/title/80232398" class="nav--footer" target="_blank"> <p class="nombre">Bridgerton</p></a>
+                    </figcaption>
+                </div>
+            </div>
+        </div>
+        
+            
+    </section><!--fin netflix-->
+
+    <section  class="contenedor-hbo">
+        <div class="contenedor-hbo__div"> 
+            <img class='contenedor-hbo__imagen' src="img/hbologo.png" alt="hbologo">
+        </div>
+        <div  class="contenedor--galeria__hbo">
+            <div class="gallery__item-hbo">
+                <img src='img/img10.jpg' alt="imagen 10">
+                <h4 class="no-margin"> Top 1</h4>
+                <figcaption>
+                    <a href="https://www.hbo.com/game-of-thrones/" class="nav--footer" target="_blank"> <p class="nombre">Game of Thrones</p></a>
+                    
+                </figcaption>
+            </div>
+            <div class="gallery__item-hbo">
+                <img src='img/img11.jpg' alt="imagen 11">
+                <h4 class="no-margin"> Top 2</h4>
+                <figcaption>
+                    <a href="www.hbo.com/veep/" class="nav--footer" target="_blank"> <p class="nombre">Veep</p></a>
+                    
+                </figcaption>
+            </div>
+            <div class="gallery__item-hbo">
+                <img src='img/img12.jpg' alt="imagen 12">
+                <h4 class="no-margin"> Top 3</h4>
+                <figcaption>
+                    <a href="https://www.hbo.com/euphoria" class="nav--footer" target="_blank"> <p class="nombre">Euphoria</p></a>
+                    
+                </figcaption>
+            </div>
+            <div class="gallery__item-hbo">
+                <img src='img/img13.jpeg' alt="imagen 13">
+                <h4 class="no-margin"> Top 4</h4>
+                <figcaption>
+                    <a href="https://www.hbo.com/chernobyl" class="nav--footer" target="_blank"> <p class="nombre">Chernobyl</p></a>
+                    
+                </figcaption>
+            </div>
+            <div class="gallery__item-hbo">
+                <img src='img/img14.jpg' alt="imagen 14">
+                <h4 class="no-margin"> Top 5</h4>
+                <figcaption>
+                    <a href="https://www.hbo.com/boardwalk-empire" class="nav--footer" target="_blank"> <p class="nombre">Boardwalk Empire</p></a>
+                    
+                </figcaption>
+            </div>
+            <div class="gallery__item-hbo">
+                <img src='img/img15.jpeg' alt="imagen 15">
+                <h4 class="no-margin"> Top 6</h4>
+                <figcaption>
+                    <a href="https://www.hbo.com/band-of-brothers" class="nav--footer" target="_blank"> <p class="nombre">Band of Brothers</p></a>
+                    
+                </figcaption>
+            </div>
+            <div class="gallery__item-hbo">
+                <img src='img/img16.jpg' alt="imagen 16">
+                <h4 class="no-margin"> Top 7</h4>
+                <figcaption>
+                    <a href="https://www.hbo.com/watchmen" class="nav--footer" target="_blank"> <p class="nombre">Watchmen</p></a>
+                    
+                </figcaption>
+            </div>
+            <div class="gallery__item-hbo">
+                <img src='img/img17.jpg' alt="imagen 17">
+                <h4 class="no-margin"> Top 8</h4>
+                <figcaption>
+                    <a href="https://www.hbo.com/westworld" class="nav--footer" target="_blank"> <p class="nombre">Westworld</p></a>
+                    
+                </figcaption>
+            </div>
+            <div id="amazon" class="gallery__item-hbo">
+                <img src='img/img18.png' alt="imagen 18">
+                <h4 class="no-margin"> Top 9</h4>
+                <figcaption>
+                    <a href="https://www.hbo.com/gunpowder" class="nav--footer" target="_blank"> <p class="nombre">Gunpowder</p></a>
+                    
+                </figcaption>
+            </div>
+        </div>
+    </section><!--fin hbo-->
+
+    <section  class="contenedor-amazon">
+        <div class="contenedor-amazon__div"> 
+            <img class='contenedor-amazon__imagen' src="img/amazonlogo.png" alt="amazonlogo">
+        </div>
+        <div  class="contenedor--galeria__amazon">
+            <div class="gallery__item-amazon">
+                <img src='img/img19.jpg' alt="imagen 19">
+                <h4 class="no-margin">Top 1</h4>
+                <figcaption>
+                    <a href="https://www.primevideo.com/detail/0OO3EI0WX74I0JQ44KM0DGWHPT/ref=atv_dp_share_cu_r" class="nav--footer" target="_blank"> <p class="nombre">The Good Doctor</p></a>
+                    
+                </figcaption>
+            </div>
+            <div class="gallery__item-amazon">
+                <img src='img/img20.jpg' alt="imagen 20">
+                <h4 class="no-margin">Top 2</h4>
+                <figcaption>
+                    <a href="https://www.primevideo.com/detail/0JCAA2611DQ7NS7X8XE9XLDYCU/ref=atv_dp_season_select_s1" class="nav--footer" target="_blank"> <p class="nombre">Supernatural</p></a>
+                    
+                </figcaption>
+            </div>
+            <div class="gallery__item-amazon">
+                <img src='img/img21.jpg' alt="imagen 21">
+                <h4 class="no-margin">Top 3</h4>
+                <figcaption>
+                    <a href="https://www.primevideo.com/detail/0HG2QOPONEONZPP2ZXNMA6M8Q7/ref=atv_tv_hom_c_R0dM4e_qjArz5_1_5" class="nav--footer" target="_blank"> <p class="nombre">The Vampire Diaries</p></a>
+                    
+                </figcaption>
+            </div>
+            <div class="gallery__item-amazon">
+                <img src='img/img22.jpg' alt="imagen 22">
+                <h4 class="no-margin">Top 4</h4>
+                <figcaption>
+                    <a href="https://www.primevideo.com/detail/0H7JFOPK2QO9WVZ8D9D0J5ZRQN/ref=atv_br_def_r_br_c_lAPtVnsmr_1_24" class="nav--footer" target="_blank"> <p class="nombre">The Office</p></a>
+                    
+                </figcaption>
+            </div>
+            <div class="gallery__item-amazon">
+                <img src='img/img23.jpg' alt="imagen 23">
+                <h4 class="no-margin">Top 5</h4>
+                <figcaption>
+                    <a href="https://www.primevideo.com/detail/0I1XM2OLB9Y41N90KUJD7OABUN/ref=atv_hm_hom_c_AwSVbQ_brws_6_32" class="nav--footer" target="_blank"> <p class="nombre">S.O.Z.</p></a>
+                    
+                </figcaption>
+            </div>
+            <div  class="gallery__item-amazon">
+                <img src='img/img24.jpg' alt="imagen 24">
+                <h4 class="no-margin">Top 6</h4>
+                <figcaption>
+                    <a href="https://www.primevideo.com/detail/0IV9CZO9F1W92MF3HB93GQOD1P/ref=atv_hm_hom_c_8o26tb_brws_2_35" class="nav--footer" target="_blank"> <p class="nombre">Carnival Row</p></a>
+                    
+                </figcaption>
+            </div>
+
+    </section ><!--fin amazon-->
+    <section class="carrusel"><!--carousel Boostrap-->
+        <div class="carruselSection">
+            <div class="carruselTexto">
+                <h2>
+                    ¡Próximos Estrenos!
+                </h2>
+            </div>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active video-responsive"  >
+                    <iframe src="https://www.youtube.com/embed/gs-ODufnJ8Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                  <div class="carousel-item video-responsive">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QisQapT1WD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                  <div class="carousel-item video-responsive">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cX8tE5XBVkE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button id="nosotros" class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div >
+        
+    </section > <!--fin carousel boostrap-->
+
+    <section class="acordion"> <!--acordeon boostrap-->
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  NETFLIX
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Entrá a Netflix desde acá <a class="linktopage" target="_blank" href="https://www.netflix.com"> https://www.netflix.com</a></div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  HBO
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Entrá a HBO desde acá <a class="linktopage" target="_blank" href="https://www.hbo.com"> https://www.hbo.com</a></div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  AMAZON
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Entrá a AMAZON desde acá <a class="linktopage" target="_blank" href="https://www.primevideo.com"> https://www.primevideo.com</a></div>
+            </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section  class="contenedor-nosotros">
+        <div class="contenedor-nosotros__dos">
+            <h2 class="contenedor-nosotros__titulo">Nosotros</h2>
+            <p class="parrafos parrafos__nosotros"> Hola! esperamos te haya gustado la selección de contenido de nuestra página, somos un grupo de estudiantes de programación que día a día actualizan el sitio con nuevas ideas, si quieres formar parte de nuestro Staff o enviarnos un comentario llená <b>¡El siguiente formulario!</b>
+        </div>
+        <div class="contenedor--formulario" id="Voto">
+            <p class="contenedor--formulario__text"></p>
+            <form class="formulario">
+                <div class="campo">
+                    <label class="campo__label" for="nombre">Nombre</label>
+                    <input class="campo__field" type="text" placeholder="Tu Nombre" id="nombre" >
+                </div>
+                <div class="campo">
+                    <label class="campo__label" for="email">E-mail</label>
+                    <input class="campo__field" type="email" placeholder="Tu E-mail" id="email" >
+                </div>
+                <div class="campo">
+                    <label class="campo__label" for="mensaje">Mensaje</label>
+                    <textarea class="campo__field campo__field--textarea" id="tuvoto"></textarea>
+                </div>
+    
+                <div class="boton--position">
+                    <div class="campo--boton">
+                        <input type="submit" value="Enviar" class="boton" >
+                    </div>
+                </div>
+            </form>
+        </div> 
+    </section><!--fin nosotros-->
+    <section class="cartaPresentacion"><!--card boostrap-->
+        <div class="card text-white bg-dark mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/twitchlogo.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title"><br>Conoce lo último en tendencias</h5>
+                  <p class="card-text"> <br> Recuerda compartir la página y ver todos los días las actualizaciones que traemos para vos. ¡Pronto más noticias en Twich! </p>
+                  <p class="card-text"><small class="text-muted">Last updated 2 days ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div><!-- fin card boostrap-->
+
+    </section>
+
+        <a href="#" class="to-top"><i class="fas fa-chevron-up"></i></a>
+    
+
+    <footer class="footer" id="seguinos">
+        <div class="footer-contenedor">
+            <div class="contenedor-footer__logo">
+                <a href=><img class="footer--logo" src="img/watch-movie.png" alt="imagen logo"></a>
+            </div> <!--finfooter logo-->
+            <div class="contenedor-footer__iconos">
+                <div class="iconos"> 
+                <a href="https://twitter.com/NetflixLAT" target="_blank"><img src="img/twicon.png" alt="twittericon"></a></div>
+            
+                <div class="iconos"> 
+                <a href="https://es-la.facebook.com/NetflixLatino/" target="_blank"><img src="img/fbicon.png" alt="facebookicon"></a></div>
+            
+                <div class="iconos"> 
+                <a href="https://www.youtube.com/c/NetflixLATAM/" target="_blank"><img src="img/yticon.png" alt="youtubeicon"></a> </div>
+            </div>
+            <div class="contenedor-footer__logo2">
+                <a href=><img id="footerlogo2" class="footer--logo" src="img/watch-movie2.png" alt="imagen logo"></a>
+            </div>
+        </div>
+        
+    </footer><!--fin footer-->
+    <script type="text/javascript" src="js/script.js"></script> <!--menu plegable-->
+    <div class="cursor"></div>
+
+    <!--BUNDLE javascript bootstrap adjuntado y verificado-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--javascript propio/ cursor-->
+    <script type="text/javascript">
+
+    const cursor = document.querySelector(".cursor");
+    var timeout;
+
+    //seguir movimiento del mouse
+    document.addEventListener("mousemove", (e) => {
+      let x = e.clientX; //correccion de error en pageX 
+      let y = e.clientY; // correccion de error en pageY
+
+      cursor.style.top = y + "px";
+      cursor.style.left = x + "px";
+      cursor.style.display = "block";
+
+    });
+    
+
+
+    //efectos del cursor cuando está afuera
+    document.addEventListener("mouseout", () => {
+      cursor.style.display = "none";
+    });
+    
+    </script>
+    
+
+</body>
+</html>
